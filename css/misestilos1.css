@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    background-color: #deddfa;/*color de fondo de la principal*/
+}
+
+h1{
+    background-color: #deddfa;/*fondo del titulo de en medio*/
+    color: rgb(255, 255, 255);/*letra blanca*/
+}
+
+a{
+    text-decoration: none;/*para que no se vea la linea de que es un link*/
+}
+
+#texto{
+    background-color: #deddfa;/*color de fondo del texto*/
+    color: rgb(255, 255, 255);/*color del texto de la parte de en medio*/
+}
+
+h2,p{
+    background-color: #dab8f3;/*color para lo que está dentro del texto del aside*/
+}
+
+#encabezado{
+    background-color: #ea7ad7;/*fondo del titulo para que sea igual que el encabezado*/
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+  
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+  
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+    background-color: #ea7ad7;/*color del header, barra principal*/
+    text-align: center;
+    padding: 15px;
+}
+  
+.menu ul {
+    list-style-type: none;/*para que no sean las viñetas*/
+    margin: 0;
+    padding: 0;
+}
+  
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #dab8f3;/*color para cada apartado*/
+    color: #ffffff;
+    text-align: center;/*texto centrado de cada apartado*/
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+  
+.menu li:hover {
+    background-color: #ce0f3d;/*color que se ve cuando se pone el puntero en cada apartado*/
+}
+  
+.aside {
+    background-color: #dab8f3;/*color para el aside*/
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+  
+.footer {
+    background-color: #ea7ad7;/*color para la barra inferior*/
+    color: #ffffff;/*color del texto*/
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+#footer{
+    background-color: #ea7ad7;/*color para lo que está dentro del texto*/
+}
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+body{
+    background-color: #deddfa;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #ea7ad7;/*color del header, barra principal*/
+    text-align: center;
+    padding: 15px;
+}
+
+#encabezado{
+    background-color: #ea7ad7;/*fondo del titulo para que sea igual que el encabezado*/
+}
+
+h1{
+    background-color: #deddfa;/*fondo del titulo de en medio*/
+    color: rgb(255, 255, 255);/*letra blanca*/
+}
+
+#imgRedonda{
+    width: 190px;
+    height: 200px;
+    border-radius: 140px;
+}
+
+td{
+    font-size: 20px;/*tamaño de la letra*/
+    padding: 10px;/*espacio entre cada dato*/
+}
+
+#dato{
+    background-color: #dab8f3;
+    color: white;/*color para letra de cada nombre del dato*/
+}
+
+p{
+    background-color: #dab8f3;
+    border-right: 10px #ce0f3d solid;
+    border-bottom: 10px #ce0f3d solid;
+    padding: 10px;
+    font-size: 18px;/*tamaño de letra de cada párrafo*/
+}
+
+li{
+    font-size: 25px;
+    color: #ce0f3d;
+}
